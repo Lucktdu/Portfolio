@@ -1,0 +1,138 @@
+/*
+  font-family: 'Caveat',
+  cursive;
+  font-family: 'Noto Sans',
+  sans-serif;
+  font-family: 'Source Serif Pro',
+  serif;*/
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    font: normal 1em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(
+        45deg,
+        #90e0ef,
+        #48cae4,
+        #00b4d8,
+        #0096c7,
+        #0077b6,
+        #023e8a,
+        #03045e
+    );
+    background-size: 250% 400%;
+    animation: colors 10s ease infinite;
+}
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#txt_intro {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 4.5em;
+    color: black;
+    border: 3px solid rgb(8, 8, 8);
+    padding: 2px 4px;
+}
+nav {
+    background-color: rgba(230, 230, 250, 0.679);
+    padding: 10px;
+}
+
+nav > a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 5px;
+    color: #fdfdfe;
+    transition-duration: 0.5s;
+}
+p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.4em;
+}
+.titulo {
+    color: #040404;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #00b4d8a8 , transparent);
+    padding: 4px 30px;
+    border-radius: 2px 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main strong {
+    
+    font-weight: bold;
+    color: #1c2f48;
+    background-image: linear-gradient(to right, #90e0ef 60%, transparent);
+    padding: 3px 8px;
+    border-radius: 2px 20px;
+}
+
+img {
+    width: 100%;
+}
+
+article.sobre {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1em;
+}
+
+article.Projetos {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1em;
+}
+
+footer:e {
+    background-image: linear-gradient(
+        45deg,
+        #90e0ef,
+        #48cae4,
+        #00b4d8,
+        #0096c7);
+       
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    
+    
+
+
+}
